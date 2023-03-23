@@ -1,0 +1,30 @@
+body{
+    font-family:Righteous;
+      background-color: #3A6FFB;
+      color: #F0F2AA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Righteous";
+    font-size:25pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color: #F0F2AA;
+    border: 2px solid;
+    background-color: #6C7CA6;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
