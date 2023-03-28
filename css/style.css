@@ -6,9 +6,11 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Righteous";
-    font-size:25pt;
+    text-align: center;
 }
-
+h1{
+    font-size:40pt;
+}
 header {
     text-align:center;
 }
@@ -27,4 +29,17 @@ header {
 
 #bio {
     text-align:center;
+    font-family:"Zilla Slab"
 }
+
+#song {
+    text-align:center;
+
+    font-family: "Zilla Slab"
+}
+
+#hobbies{
+    font-family: "Zilla Slab";
+}
+
+
