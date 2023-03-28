@@ -22,15 +22,20 @@ header {
     text-align:center;
     padding:10px;
 }
+/*Hero Section*/
 
 #hero img {
     width:300px;
 }
 
+/*Bio Section*/
+
 #bio {
     text-align:center;
     font-family:"Zilla Slab"
 }
+
+/*Song Section*/
 
 #song {
     text-align:center;
@@ -38,8 +43,31 @@ header {
     font-family: "Zilla Slab"
 }
 
+/*Hobbies Section*/
+
 #hobbies{
     font-family: "Zilla Slab";
 }
+
+/*Gallery Section*/
+
+#gallery {
+    border: 2px solid #F0F2AA;
+}
+
+#gallery figure {
+    text-align: center;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figcaption {
+font-family: "Zilla Slab";
+}
+
+
+
 
 
