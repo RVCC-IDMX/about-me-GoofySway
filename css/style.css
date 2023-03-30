@@ -6,7 +6,7 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Righteous";
-    text-align: center;
+    text-align: center;   
 }
 h1{
     font-size:40pt;
@@ -53,6 +53,7 @@ header {
 
 #gallery {
     border: 2px solid #F0F2AA;
+    margin-bottom: 2rem ;
 }
 
 #gallery figure {
@@ -67,6 +68,51 @@ header {
 font-family: "Zilla Slab";
 }
 
+/*Article Section*/
+
+#lit h2 {
+    border:5px outset orange;
+    font-family:"Righteous";
+    text-shadow:2px 2px 3px rgba(o,0,0,.5);
+    box-shadow:5px 5px 5px rgba(o,0,0,.5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+}
+
+#lit {
+    font-family: "Zilla Slab";
+    border: 2px solid #F0F2AA;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+/*Dropcaps*/
+
+#lit div p:nth-child(2n+1):first-letter {
+    color:#FFAC38;
+    background-image: radial-gradient(#6C76A6);
+    float:left;
+    font-size:2em;
+    padding:.30em;
+    margin-right:.10em;
+    line-height: .65;
+    border:5px outset orange;
+    font-family:"Pacifico";
+    text-shadow:2px 2px 3px rgba(o,0,0,.5);
+    box-shadow:5px 5px 5px rgba(o,0,0,.5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2em;
+}
 
 
 
