@@ -1,59 +1,68 @@
-body{
-    font-family:Righteous;
-      background-color: #3A6FFB;
-      color: #F0F2AA;
+body {
+    font-family: Righteous;
+    background-color: #3A6FFB;
+    color: #F0F2AA;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Righteous";
-    text-align: center;   
-}
-h1{
-    font-size:40pt;
+    text-align: center;
 }
 
-h2{
-    font-size:30pt;
+h1 {
+    font-size: 40pt;
 }
 
-h3{
-    font-size:18pt;
+h2 {
+    font-size: 30pt;
 }
+
+h3 {
+    font-size: 18pt;
+}
+
 header {
-    text-align:center;
+    text-align: center;
 }
 
-#hero, footer {
+#hero,
+footer {
     color: #F0F2AA;
     border: 2px solid;
     background-color: #6C7CA6;
-    text-align:center;
-    padding:10px;
+    text-align: center;
+    padding: 10px;
 }
+
 /*Hero Section*/
 
 #hero img {
-    width:300px;
+    width: 300px;
 }
 
 /*Bio Section*/
 
 #bio {
-    text-align:center;
-    font-family:"Zilla Slab"
+    text-align: center;
+    font-family: "Zilla Slab"
 }
 
 /*Song Section*/
 
 #song {
-    text-align:center;
+    text-align: center;
 
     font-family: "Zilla Slab"
 }
 
 /*Hobbies Section*/
 
-#hobbies{
+#hobbies {
     font-family: "Zilla Slab";
     display: flex;
     flex-direction: column;
@@ -65,7 +74,7 @@ header {
 
 #gallery {
     border: 2px solid #F0F2AA;
-    margin-bottom: 2rem ;
+    margin-bottom: 2rem;
 }
 
 #gallery figure {
@@ -73,20 +82,20 @@ header {
 }
 
 #gallery img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 #gallery figcaption {
-font-family: "Zilla Slab";
+    font-family: "Zilla Slab";
 }
 
 /*Article Section*/
 
 #lit h2 {
-    border:5px outset orange;
-    font-family:"Righteous";
-    text-shadow:2px 2px 3px rgba(o,0,0,.5);
-    box-shadow:5px 5px 5px rgba(o,0,0,.5);
+    border: 5px outset orange;
+    font-family: "Righteous";
+    text-shadow: 2px 2px 3px rgba(o, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(o, 0, 0, .5);
     border-top-left-radius: .2em;
     border-bottom-right-radius: .2em;
 }
@@ -111,37 +120,65 @@ font-family: "Zilla Slab";
 /*Dropcaps*/
 
 #lit div p:nth-child(2n+1):first-letter {
-    color:#FFAC38;
+    color: #FFAC38;
     background-image: radial-gradient(#6C76A6);
-    float:left;
-    font-size:2em;
-    padding:.30em;
-    margin-right:.10em;
+    float: left;
+    font-size: 2em;
+    padding: .30em;
+    margin-right: .10em;
     line-height: .65;
-    border:5px outset orange;
-    font-family:"Pacifico";
-    text-shadow:2px 2px 3px rgba(o,0,0,.5);
-    box-shadow:5px 5px 5px rgba(o,0,0,.5);
+    border: 5px outset orange;
+    font-family: "Pacifico";
+    text-shadow: 2px 2px 3px rgba(o, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(o, 0, 0, .5);
     border-top-left-radius: .2em;
     border-bottom-right-radius: .2em;
 }
 
-/*Gallery Modifications*/
+/*Tablet Size*/
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 600px) {
     figure {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
-    
+
     figcaption {
-      Display: grid;
-      justify-content: center;
-      align-items: center;
-      font-size:2rem;
-      margin-left:1rem;
+        Display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
     }
 
+    figure img {
+        width: 100%;
+    }
 
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
 }
 
+/* Large Screen Size */
+
+@media screen and (min-width: 1200px) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+
+}
