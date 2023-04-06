@@ -11,6 +11,14 @@ h1, h2, h3, h4, h5, h6 {
 h1{
     font-size:40pt;
 }
+
+h2{
+    font-size:30pt;
+}
+
+h3{
+    font-size:18pt;
+}
 header {
     text-align:center;
 }
@@ -47,6 +55,10 @@ header {
 
 #hobbies{
     font-family: "Zilla Slab";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .1rem;
 }
 
 /*Gallery Section*/
@@ -114,6 +126,22 @@ font-family: "Zilla Slab";
     border-bottom-right-radius: .2em;
 }
 
+/*Gallery Modifications*/
+
+@media screen and (min-width: 60em) {
+    figure {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    figcaption {
+      Display: grid;
+      justify-content: center;
+      align-items: center;
+      font-size:2rem;
+      margin-left:1rem;
+    }
 
 
+}
 
