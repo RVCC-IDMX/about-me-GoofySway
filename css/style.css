@@ -182,3 +182,12 @@ footer {
     }
 
 }
+
+    #video {
+        align-items: center;
+
+        text-align: center;
+
+        border: 2px solid #F0F2AA;
+        margin-bottom: 2rem;
+    }
