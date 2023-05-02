@@ -75,6 +75,7 @@ footer {
 #gallery {
     border: 2px solid #F0F2AA;
     margin-bottom: 2rem;
+    border-radius:2rem
 }
 
 #gallery figure {
@@ -104,6 +105,7 @@ footer {
     font-family: "Zilla Slab";
     border: 2px solid #F0F2AA;
     margin-bottom: 2rem;
+    border-radius:2rem
 }
 
 #lit div {
@@ -190,10 +192,54 @@ footer {
 
         border: 2px solid #F0F2AA;
         margin-bottom: 2rem;
+        border-radius:2rem
     }
 
     /* Contact Form*/
 
     #formElements {
         display: grid;
+        row-gap: .5em;
     }
+
+    #Contact {
+        padding: 1rem;
+        max-width:600px;
+        margin: 2rem auto;
+    }
+
+    fieldset{
+        border: 2px solid;
+        margin:1em;
+        margin-bottom:1em;
+        border-radius:2rem;
+    }
+
+    legend{
+        background-color: #F0F2AA;
+        color: #3A6FFB;
+        padding:.5em;
+    }
+
+    #Contact input, #Contact textarea, #Contact select, #Contact button {
+        padding:.5em;
+        font-size:1rem;
+    }
+
+    #Contact ul{
+        list-style: none;
+        padding:0px;
+    }
+
+    #Contact li{
+    margin:1em;    
+    }
+
+    #Contact button{
+        background-color: #F0F2AA;
+        color: #3A6FFB;
+        border:1px solid #020101;
+        max-width:400px;
+        width:50%;
+        justify-self: center;
+     }
