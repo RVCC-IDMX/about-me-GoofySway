@@ -56,7 +56,9 @@ main{
 
 /* navigation list */
 
-.navbar-link li{
+/*.navbar-link li*/
+.nav-links li 
+{
     list-style: none;
     display: block;
     padding:0.5em 0;
@@ -91,12 +93,12 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-@media screen (min-width: 60rem){
+@media screen and (min-width: 60rem){
 
     .navbar-links {
         display: flex;
         flex-direction:row;
-        justify-content: space-between;
+        justify-content:space-between;
     }
 
     .navbar {
